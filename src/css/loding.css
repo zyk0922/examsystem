@@ -1,0 +1,23 @@
+.isdata {
+  width: 100%;
+  height: 1.55rem;
+  line-height: 1.55rem;
+  text-align: center;
+}
+.loader {
+  border: 0.16rem solid #f3f3f3;
+  border-color: #a5e9c0 #79dba0 #44c477 #359b5d;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0.5rem auto;
+  animation: load 2s linear infinite;
+}
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
