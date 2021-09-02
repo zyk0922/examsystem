@@ -7,7 +7,7 @@
 export default {
    data() {
       return {
-          data:1111111,
+          data:11111111,
       }
    },
    methods:{
