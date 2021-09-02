@@ -75,7 +75,7 @@ export default {
     },
     islist1() {
       this.islist = !this.islist;
-      console.log(111)
+      console.log(222)
     },
   },
   created() { 
